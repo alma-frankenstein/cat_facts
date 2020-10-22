@@ -1,24 +1,50 @@
-# README
+# Cat Facts
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Created by Donny Mays and Alma Frankenstein for Epicodus, 2020
 
-Things you may want to cover:
+## Description
 
-* Ruby version
+This app allows users to sign up for an account that will show them a series of cat facts.
 
-* System dependencies
+## Specs
 
-* Configuration
+* Allow users to sign up, in, and out
+* Make an API call that displays a fact about cats
 
-* Database creation
+## Setup
 
-* Database initialization
+Clone this repo using:
 
-* How to run the test suite
+```git clone https://github.com/alma-frankenstein/cat_facts cats```
 
-* Services (job queues, cache servers, search engines, etc.)
+Cd to the cats directory.
 
-* Deployment instructions
+Install Bundler with ```gem install bundler```
 
-* ...
+Each time the Gemfile is changed, run ```bundle install```
+
+Create the databases with ```rake db:create```
+
+Migrate the database and test database with ```rake db:migrate``` and ```rake db:test:prepare```
+
+Seed the databases: ```rake db:seed```
+
+View the app in the server: ```rails s```
+
+## Technologies Used
+
+* Ruby
+* rspec
+* Rails
+* Capybara
+* SQL
+
+## Contact Details
+
+For questions or to suggestions, please email A.Q.Frankenstein@gmail.com
+
+### License
+
+This software is licensed under the MIT license.
+
+Copyright (c) 2020 Donny Mays and Alma Frankenstein
